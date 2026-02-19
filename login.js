@@ -16,7 +16,7 @@ document.getElementById("btn-login").addEventListener(
 
             // 3- match pin and mobile number
 
-            alert("Login Succesfully");
+            // alert("Login Succesfully");
             // 3.1- true:: alert > homepage
 
             window.location.assign("home.html");
