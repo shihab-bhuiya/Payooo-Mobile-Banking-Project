@@ -26,3 +26,10 @@ function setBalance(value){
     const balalceElement = document.getElementById("balance");
     balalceElement.innerText = value;
 }
+
+
+// show and hide id
+
+function showOnly(id){
+
+}
