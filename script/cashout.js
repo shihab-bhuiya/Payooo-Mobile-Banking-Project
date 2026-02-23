@@ -17,6 +17,9 @@ document.getElementById("cashout-btn").addEventListener('click',
         const cashoutAmountInput = document.getElementById("cashout-amount");
         const cashoutAmount = cashoutAmountInput.value;
         console.log(cashoutAmount);
+        if(cashoutAmount < 0){
+            return alert("Invalid Amount")
+        }
 
         // 3. Get current balance , validation and convert number
 
